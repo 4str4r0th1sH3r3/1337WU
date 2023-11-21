@@ -38,14 +38,18 @@ A new clue appear: **m4r64r1n3**
 I also found **fl0pfl0p5's** reddit, which we once again saw our new friend
 ![reddit](https://i.imgur.com/Xya1p6p.png)
 ### Step 3: New Identity ?
-Base on information we just gather, **fl0pfl0p5** and **m4r64r1n3** is the same person
+Base on information we just gather, **fl0pfl0p5** and **m4r64r1n3** is the same person. So i go around and see if there are any valueable information, and found a picture taken by him
+![capture](https://i.imgur.com/bhvJQlW.png)
 
-### Step 4: URL Manipulation
-Following the decoded URL led me to another page, where I encountered a URL parameter. By manipulating the parameter, I discovered that setting it to "admin" granted access to an admin dashboard, which contained the final flag.
+Throw this to google image, and i also found another profile on reddit, post the same picture.
+![reddit2](https://i.imgur.com/GdsPGUU.png)
+Link to this profile: https://www.reddit.com/user/v1ck1v4l3/
+Another nickname show up, and i also found a blog posting this image, under the same nickname: **v1ck1v4l3**
+![blog](https://i.imgur.com/rH2Zcyl.png)
+Link to blog:  https://v1ck1pictures.blogspot.com/2023/09/just-little-bird.html#comments
+When reading those comments, i realise that one of the them was deleted by the author, and to recover to find what user **Rinstaff** was written i use Wayback Machine to do it
+![wayback](https://i.imgur.com/mvVIUoT.png)
+And there it is, our final flag
+- **Flag:** `INTIGRITI{D3F1N173LY_N07_60TH4M_C17Y}`
 
-## Flag
-Congratulations! You've successfully navigated the WebAdventure!
-- **Flag:** `CTF{WebAdventuresAreFun}`
 
-## Conclusion
-The WebAdventure challenge was an interesting journey through various web exploitation techniques, including authentication bypass, hidden input field analysis, and URL manipulation. It demonstrated the importance of source code analysis and creative thinking in CTF challenges.
